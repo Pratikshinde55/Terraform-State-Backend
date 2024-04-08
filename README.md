@@ -41,7 +41,7 @@ Then partition key = LockID .
 
 
 
-❄️ Terraform ❄️
+❄️ Now on Terraform 💻❄️
 
 Step-1:--
 
