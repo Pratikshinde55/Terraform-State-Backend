@@ -86,9 +86,10 @@ Now terraform apply command run from two terminal at same but only one worl:
 
     #terraform apply
 
-![state-lock](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/6f63d12b-d757-49b2-b05d-f16489f5cb18)
-In Above image, When 1st terminal(user1) run apply command at same time 2nd terminal(user2) run same apply command, Here only 1st user command work and 2nd user command not work 
+In Below screenshot, When 1st terminal(user1) run apply command at same time 2nd terminal(user2) run same apply command, Here only 1st user command work and 2nd user command not work 
 it goes under 'State Lock'.
+![state-lock](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/6f63d12b-d757-49b2-b05d-f16489f5cb18)
+
 
 
 
