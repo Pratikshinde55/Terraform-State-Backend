@@ -40,3 +40,14 @@ on aws console-->> search "dynamoDB" then click on 'Dashboard' , create table in
 Then partition key = LockID .
 
 
+
+❄️Terraform❄️
+
+       #notepad provider.tf
+
+![provider tf](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/eaca1b18-16da-40e0-b2ee-b4212799edf3)
+
+
+
+
+
