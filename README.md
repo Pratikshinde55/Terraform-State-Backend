@@ -109,6 +109,28 @@ When user2 goes under state locking then ".terraform.lock.hcl" file automaticall
 ![ps](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/3ffb5194-add2-4018-b102-9c34d9c279be)
 
 
+❄️ On aws Console infrastucture done:
+
+
+EC2 instance is lanuched :
+
+![Screenshot 2024-04-08 150114](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/c47f81ae-bc1a-44a2-88bf-46e70cc9f749)
+
+
+AWS S3 Bucket:
+
+![Screenshot 2024-04-08 150307](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/4e0dcf2b-2743-480d-8333-295e9823bc01)
+![Screenshot 2024-04-08 150421](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/ed59e36f-4861-4843-a17b-d28586f1e09e)
+![Screenshot 2024-04-08 150431](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/996f029e-f86a-4993-812b-01a070fbdc16)
+
+
+
+
+
+
+
+
+
 
 
 
