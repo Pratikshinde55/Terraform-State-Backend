@@ -100,6 +100,16 @@ State File (terraform.tfstate) is not save locally on Both user/terminal :
 ![tf-statelocking-file](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/71c3b6ca-b0ff-4aeb-82e0-d6713ca57cbc)
 
 
+Note:
+
+When user2 goes under state locking then ".terraform.lock.hcl" file automatically install on locally .
+
+   #ls -a
+   
+![ps](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/3ffb5194-add2-4018-b102-9c34d9c279be)
+
+
+
 
 
 
