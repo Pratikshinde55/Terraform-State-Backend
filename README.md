@@ -41,11 +41,25 @@ Then partition key = LockID .
 
 
 
-❄️Terraform❄️
+❄️ Terraform ❄️
+
+Step-1:--
 
        #notepad provider.tf
 
 ![provider tf](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/eaca1b18-16da-40e0-b2ee-b4212799edf3)
+
+bucket: Specifies the name of the S3 bucket where Terraform state will be stored.
+
+key: Specifies the path within the bucket where the state file will be stored.
+
+region: Specifies the AWS region where the S3 bucket is located.
+
+dynamodb_table: Specifies the name of the DynamoDB table used for state locking.
+
+
+
+
 
 
 
