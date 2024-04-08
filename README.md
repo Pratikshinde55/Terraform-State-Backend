@@ -66,7 +66,10 @@ Step-2:--
 ![main tf-2](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/f0decdb5-5f3b-4b15-a25f-12469d8e14b2)
 
 This Terraform configuration creates an AWS EC2 instance, referencing the most recent Amazon Machine Image (AMI) meeting specific criteria, and sets up a security
-group allowing inbound traffic on specified ports
+group allowing inbound traffic on specified ports.
+
+
+# Now Check State Locking working for remote Backend state file 
 
 
 
