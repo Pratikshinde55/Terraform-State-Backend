@@ -117,11 +117,16 @@ EC2 instance is lanuched :
 ![Screenshot 2024-04-08 150114](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/c47f81ae-bc1a-44a2-88bf-46e70cc9f749)
 
 
-AWS S3 Bucket:
+
+AWS S3 Bucket:(my.state file is created)
 
 ![Screenshot 2024-04-08 150307](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/4e0dcf2b-2743-480d-8333-295e9823bc01)
 ![Screenshot 2024-04-08 150421](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/ed59e36f-4861-4843-a17b-d28586f1e09e)
 ![Screenshot 2024-04-08 150431](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/996f029e-f86a-4993-812b-01a070fbdc16)
+
+AWS DynamoDB:
+
+![Screenshot 2024-04-08 150239](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/64e1c8be-2c6e-4205-bde0-4fade7a92375)
 
 
 
