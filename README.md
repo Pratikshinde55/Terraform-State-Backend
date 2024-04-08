@@ -70,6 +70,19 @@ group allowing inbound traffic on specified ports.
 
 
 # Now Check State Locking working for remote Backend state file 
+For this i use Two terminal of same terraform plugin, and form that two terminal(console) i run "terraform apply command"
+
+Note : 
+
+For plugin 1st need to run follow command:
+
+    # terraform init
+    
+And also use to reconfigure precreated 
+
+    # terraform.exe init -reconfigure
+
+
 
 
 
