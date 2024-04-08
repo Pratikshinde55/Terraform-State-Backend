@@ -43,7 +43,7 @@ Then partition key = LockID .
 
 ❄️ Now on Terraform 💻❄️
 
-Step-1:--
+✧ Step-1:--
 
        #notepad provider.tf
 
@@ -58,7 +58,7 @@ region: Specifies the AWS region where the S3 bucket is located.
 dynamodb_table: Specifies the name of the DynamoDB table used for state locking.
 
 
-Step-2:--
+✧ Step-2:--
 
     #notepad main.tf
 
@@ -90,12 +90,12 @@ In Below screenshot, When 1st terminal(user1) run apply command at same time 2nd
 it goes under 'State Lock'.
 ![state-lock](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/6f63d12b-d757-49b2-b05d-f16489f5cb18)
 
-After user1 Infrastucture done we again run same apply , the user2 terminal is state locked is now open see in below Screenshot: 
+✧ After user1 Infrastucture done we again run same apply , the user2 terminal is state locked is now open see in below Screenshot: 
 
 ![state-lock-2](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/179e7c65-af8e-4f2d-82cb-0783c5c54ab4)
 
 
-State File (terraform.tfstate) is not save locally on Both user/terminal :
+✧ State File (terraform.tfstate) is not save locally on Both user/terminal :
 
 ![tf-statelocking-file](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/71c3b6ca-b0ff-4aeb-82e0-d6713ca57cbc)
 
@@ -112,19 +112,22 @@ When user2 goes under state locking then ".terraform.lock.hcl" file automaticall
 ❄️ On aws Console infrastucture done:
 
 
-EC2 instance is lanuched :
+✧ EC2 instance is lanuched :
+
 
 ![Screenshot 2024-04-08 150114](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/c47f81ae-bc1a-44a2-88bf-46e70cc9f749)
 
 
 
-AWS S3 Bucket:(my.state file is created)
+✧ AWS S3 Bucket:(my.state file is created)
+
 
 ![Screenshot 2024-04-08 150307](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/4e0dcf2b-2743-480d-8333-295e9823bc01)
 ![Screenshot 2024-04-08 150421](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/ed59e36f-4861-4843-a17b-d28586f1e09e)
 ![Screenshot 2024-04-08 150431](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/996f029e-f86a-4993-812b-01a070fbdc16)
 
-AWS DynamoDB:
+✧ AWS DynamoDB:
+
 
 ![Screenshot 2024-04-08 150239](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/64e1c8be-2c6e-4205-bde0-4fade7a92375)
 
