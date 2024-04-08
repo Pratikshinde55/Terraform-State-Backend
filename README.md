@@ -90,6 +90,9 @@ In Below screenshot, When 1st terminal(user1) run apply command at same time 2nd
 it goes under 'State Lock'.
 ![state-lock](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/6f63d12b-d757-49b2-b05d-f16489f5cb18)
 
+After this done we again run same apply , the user2 terminal is state locked is now open see in below Screenshot: 
+
+![state-lock-2](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/179e7c65-af8e-4f2d-82cb-0783c5c54ab4)
 
 
 
