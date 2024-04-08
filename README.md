@@ -82,6 +82,12 @@ And also use to reconfigure precreated
 
     # terraform.exe init -reconfigure
 
+Now terraform apply command run from two terminal at same but only one worl:
+
+    #terraform apply
+
+![state-lock](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/6f63d12b-d757-49b2-b05d-f16489f5cb18)
+
 
 
 
