@@ -58,6 +58,14 @@ region: Specifies the AWS region where the S3 bucket is located.
 dynamodb_table: Specifies the name of the DynamoDB table used for state locking.
 
 
+Step-2:--
+
+    #notepad main.tf
+
+![main tf-1](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/e65c71e4-3f93-4409-9112-daaadc8ae1a2)
+![main tf-2](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/f0decdb5-5f3b-4b15-a25f-12469d8e14b2)
+
+
 
 
 
