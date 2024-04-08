@@ -19,22 +19,22 @@ everyone has the same up-to-date information about the infrastructure. It also a
 
 ⚙️Following steps need to do on AWS console :
 
-Step-1:(Create an S3 Bucket)
+⚡Step-1:(Create an S3 Bucket)
 
 Go to aws console search "S3" then click create S3 bucket,in my case name of bucket is "tf-ps", select region same as terraform plugin.
 
-Step-2:(Create a Folder in the Bucket)
+⚡Step-2:(Create a Folder in the Bucket)
 
-After S3 Bucket is created then need to create folder to manage things.
+ After S3 Bucket is created then need to create folder to manage things.
 
-aws console -->> in S3 , Click on S3 bucket("tf-ps") click on create folder and give folder name in my case "webdev" is key name .
+ aws console -->> in S3 , Click on S3 bucket("tf-ps") click on create folder and give folder name in my case "webdev" is key name .
 
-Note:-
+ Note:-
 
-When we use aws S3 bucket as Backend for terraform state file then terraform state locking not work, For enable 'state-locking' in S3 bucket then we have use "DynamoDB" with "S3". 
-External locking mechanism we used.
+ When we use aws S3 bucket as Backend for terraform state file then terraform state locking not work, For enable 'state-locking' in S3 bucket then we have use "DynamoDB" with "S3". 
+ External locking mechanism we used.
 
-Step-3: (DynamoDB table)
+⚡Step-3: (DynamoDB table)
 
 on aws console-->> search "dynamoDB" then click on 'Dashboard' , create table in my case name is "table-locking-statefile". 
 Then partition key = LockID .
