@@ -31,4 +31,5 @@ aws console -->> in S3 , Click on S3 bucket("tf-ps") click on create folder and 
 
 Note:-
 
-When we use aws S3 bucket as Backend for terraform state file then terraform state locking not work, For enable 'state-locking' in S3 bucket then we have use "DynamoDB" with "S3"
+When we use aws S3 bucket as Backend for terraform state file then terraform state locking not work, For enable 'state-locking' in S3 bucket then we have use "DynamoDB" with "S3". 
+External locking mechanism we used.
