@@ -17,7 +17,7 @@ Using centralized storage means keeping all Terraform configuration information 
 everyone has the same up-to-date information about the infrastructure. It also adds security features like access control and makes it easier to back up and manage large amounts of data.
 
 
-Following steps need to do on AWS console :
+⚙️Following steps need to do on AWS console :
 
 Step-1: 
 
