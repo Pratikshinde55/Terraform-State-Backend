@@ -1,6 +1,6 @@
 # "Efficient Terraform Backend Setup: Harnessing AWS S3 for State Management"
 
-![terraform-backend](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/ed852141-0194-493c-9444-76acda29ffd7)
+![terraform-backend](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/67a5e1a5-54c6-46ea-9760-23f100722302)
 
 
 In this project i connect backend as aws " bucket S3" and "DynamoDB"
