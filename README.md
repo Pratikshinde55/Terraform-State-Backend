@@ -12,3 +12,6 @@ Note: Not required to set-up "self locking"  when state file save in local, but 
 Remote State File/ Locking :--
 
 Remote state file means we can save our "terraform.tfstate" file in Centralized Storage.
+
+Using centralized storage means keeping all Terraform configuration information in one place that everyone on the team can access. It helps everyone work together smoothly and ensures that 
+everyone has the same up-to-date information about the infrastructure. It also adds security features like access control and makes it easier to back up and manage large amounts of data.
