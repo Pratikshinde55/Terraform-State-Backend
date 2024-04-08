@@ -118,3 +118,6 @@ When user2 goes under state locking then ".terraform.lock.hcl" file automaticall
 
 
 
+
+
+
