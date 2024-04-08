@@ -95,6 +95,12 @@ After user1 Infrastucture done we again run same apply , the user2 terminal is s
 ![state-lock-2](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/179e7c65-af8e-4f2d-82cb-0783c5c54ab4)
 
 
+State File (terraform.tfstate) is not save locally on Both user/terminal :
+
+![tf-statelocking-file](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/71c3b6ca-b0ff-4aeb-82e0-d6713ca57cbc)
+
+
+
 
 
 
