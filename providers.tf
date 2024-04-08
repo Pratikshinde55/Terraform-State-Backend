@@ -4,7 +4,7 @@
 terraform {
   required_version = "~>1.2"
 
-###remote backend - aws "S3" bucket..............
+###  "Configure Remote Backend (AWS S3)"
 
   backend "s3" {
     bucket         = "tf-ps"
