@@ -36,6 +36,7 @@ External locking mechanism we used.
 
 Step-3: (DynamoDB table)
 
-on aws console-->> search "dynamoDB" then click on 'Dashboard' , create table in my case name is "table-locking-statefile". Then partition key = LockID .
+on aws console-->> search "dynamoDB" then click on 'Dashboard' , create table in my case name is "table-locking-statefile". 
+Then partition key = LockID .
 
 
