@@ -15,3 +15,20 @@ Remote state file means we can save our "terraform.tfstate" file in Centralized 
 
 Using centralized storage means keeping all Terraform configuration information in one place that everyone on the team can access. It helps everyone work together smoothly and ensures that 
 everyone has the same up-to-date information about the infrastructure. It also adds security features like access control and makes it easier to back up and manage large amounts of data.
+
+
+Following steps need to do :
+
+Step-1: 
+
+Go to aws console search "S3" then click create S3 bucket,in my case name of bucket is "tf-ps", select region same as terraform plugin.
+
+Step-2:
+
+After S3 Bucket is created then need to create folder to manage things.
+
+aws console -->> in S3 , Click on S3 bucket("tf-ps") click on create folder and give folder name in my case "webdev" is key name .
+
+Note:-
+
+When we use aws S3 bucket as Backend for terraform state file then terraform state locking not work, For enable 'state-locking' in S3 bucket then we have use "DynamoDB" with "S3"
