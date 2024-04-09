@@ -116,7 +116,7 @@ When user2 goes under state locking then ".terraform.lock.hcl" file automaticall
 ❄️ On aws Console infrastucture done:
 
 
-✧ EC2 instance is lanuched :
+✧ EC2 instance is lanuched by Terraform  :
 
 
 ![Screenshot 2024-04-08 150114](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/c47f81ae-bc1a-44a2-88bf-46e70cc9f749)
