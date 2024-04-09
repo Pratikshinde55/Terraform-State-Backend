@@ -123,14 +123,14 @@ When user2 goes under state locking then ".terraform.lock.hcl" file automaticall
 
 
 
-✧ AWS S3 Bucket:(my.state file is created)
+✧ AWS S3 Bucket:(my.state file is created & And here Terraform state save)
 
 
 ![Screenshot 2024-04-08 150307](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/4e0dcf2b-2743-480d-8333-295e9823bc01)
 ![Screenshot 2024-04-08 150421](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/ed59e36f-4861-4843-a17b-d28586f1e09e)
 ![Screenshot 2024-04-08 150431](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/996f029e-f86a-4993-812b-01a070fbdc16)
 
-✧ AWS DynamoDB:
+✧ AWS DynamoDB (This enable State locking for S3  Bucket):
 
 
 ![Screenshot 2024-04-08 150239](https://github.com/Pratikshinde55/Terraform-Remote-Backend-state_locking/assets/145910708/64e1c8be-2c6e-4205-bde0-4fade7a92375)
