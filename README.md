@@ -85,7 +85,7 @@ And also use to reconfigure precreated
 
     # terraform.exe init -reconfigure
 
-Now terraform apply command run from two terminal at same but only one worl:
+Now terraform apply command run from two terminal at same but only one work:
 
     #terraform apply
 
